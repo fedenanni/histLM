@@ -1,4 +1,8 @@
+#!/bin/bash
 mkdir histLM_dataset
 cd histLM_dataset
 wget https://zenodo.org/record/4782245/files/flair.zip
 unzip flair.zip
+rm flair.zip
+cd ..
+exec "$@"
