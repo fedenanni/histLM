@@ -6,4 +6,3 @@ rm flair.zip
 wget https://zenodo.org/record/4782245/files/bert.zip
 unzip bert.zip
 rm bert.zip
-cd ..
