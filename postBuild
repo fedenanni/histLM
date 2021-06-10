@@ -1,4 +1,3 @@
-#!/bin/bash
 mkdir histLM_dataset
 cd histLM_dataset
 wget https://zenodo.org/record/4782245/files/flair.zip
@@ -7,5 +6,3 @@ rm flair.zip
 wget https://zenodo.org/record/4782245/files/bert.zip
 unzip bert.zip
 rm bert.zip
-cd ..
-exec "$@"
