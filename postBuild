@@ -6,3 +6,6 @@ rm flair.zip
 wget https://zenodo.org/record/4782245/files/bert.zip
 unzip bert.zip
 rm bert.zip
+wget https://zenodo.org/record/4782245/files/word2vec.zip
+unzip word2vec.zip
+rm word2vec.zip
